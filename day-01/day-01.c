@@ -2,7 +2,7 @@
 
 #define LIST_SIZE 1000
 
-int convert_to_int(char str[5]){
+int convert_to_int(int str[5]){
     int out = 0;
     out += 10000 * (str[0] - 48);
     out += 1000 * (str[1] - 48);
@@ -32,7 +32,7 @@ void sort_list(int list[LIST_SIZE]){
 int add_differences(int list1[LIST_SIZE], int list2[LIST_SIZE]){
     int out = 0;
 
-    for(int i = 0; i < LIST_SIZE; i++){
+    for(size_t i = 0; i < LIST_SIZE; i++){
         if (list1[i] > list2[i]) {
             out += list1[i] - list2[i];
         } else {
@@ -69,10 +69,10 @@ int main(void) {
     
     int ch;
 
-    char num[5];
+    int num[5];
     size_t i = 0;
 
-    char swap_list = 0;
+    int swap_list = 0;
     size_t add_list = 0;
 
     int value;
@@ -95,6 +95,9 @@ int main(void) {
             }
         }
     }
+
+    fclose(fp);
+
     sort_list(list1);
     sort_list(list2);
 
