@@ -1,7 +1,7 @@
 @echo off
 cls
 
-SET SRC_NAME=day-01
+SET SRC_NAME=day-02
 
 SET SRC_FILE=%SRC_NAME%\%SRC_NAME%.c 
 SET OUT_PATH=out\

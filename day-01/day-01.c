@@ -4,11 +4,10 @@
 
 int convert_to_int(int str[5]){
     int out = 0;
-    out += 10000 * (str[0] - 48);
-    out += 1000 * (str[1] - 48);
-    out += 100 * (str[2] - 48);
-    out += 10 * (str[3] - 48);
-    out += str[4] - 48;
+
+    for(size_t i = 0; i < 5; i++) {
+        out = out * 10 + (str[i] - 48);
+    }
 
     return out;
 }
