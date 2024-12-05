@@ -1,4 +1,8 @@
-Advent of Code 2024 done in the C programming language 
+Advent of Code 2024
+
+Languages used:<br> 
+C (plain old C)<br>
+Javascript<br>
 
 https://adventofcode.com/
 
@@ -10,3 +14,4 @@ I am not doing this to be competitive, I have not programmed much this year so t
 Status: <br>
 <a href="https://adventofcode.com/2024/day/1">Day 1</a> parts 1 and 2 complete and correct<br>
 <a href="https://adventofcode.com/2024/day/2">Day 2</a> parts 1 correct. <br>
+<a href="https://adventofcode.com/2024/day/3">Day 3</a> parts 1 and 2 complete and correct. Used Javascript since I am familiar with Javascript style regex.<br>
