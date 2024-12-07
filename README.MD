@@ -18,3 +18,4 @@ Status: <br>
 <a href="https://adventofcode.com/2024/day/4">Day 4</a> parts 1 and 2 complete
 skipped day 5 (for now)<br>
 <a href="https://adventofcode.com/2024/day/6">Day 6</a> part 1 complete
+<a href="https://adventofcode.com/2024/day/7">Day 6</a> part 1 complete

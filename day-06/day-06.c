@@ -1,4 +1,3 @@
-#include <time.h>
 #include <stdio.h>
 
 #define SIZE 130
@@ -26,11 +25,6 @@ void change_direction(int *dir){
 }
 
 int main(void){
-
-    clock_t start, end;
-    double total_time;
-
-    start = clock(); // start timer
 
     FILE *fp = fopen("day-06/input.txt", "r");
 
@@ -69,9 +63,6 @@ int main(void){
 
     for(size_t i = 0; i < SIZE * SIZE; i++) count += board[i] == 'X' ? 1 : 0;
     
-    end = clock();
-    total_time = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("Execution time: %f seconds\n", total_time);
     printf("%d\n", count); // part 1 answer
 
 
